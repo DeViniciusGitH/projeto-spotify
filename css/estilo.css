@@ -36,8 +36,9 @@
     }
 }
 
-html, #home{
+html, #home, body{
     height: 100%;
+    overflow-x: hidden;
 }
 
 body{
@@ -45,7 +46,6 @@ body{
                 url(../imagens/ruido.png),
                 linear-gradient(50deg, #ff4169, #7c26f8 );
     background-attachment: fixed;
-    height: 100%;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -107,4 +107,43 @@ nav.nav-transparente{
 .btn-branco:hover{
     background-color: white;
     color: black;
+}
+.caixa{
+    padding: 20px 0px;
+}
+#servicos{
+    background-color: white;
+}
+
+#servicos h2, h3{
+    color: #7c26f8;
+}
+
+#recursos h2, #recursos p{
+    color: white;
+}
+
+#recursos h3{
+    color: #9bf0e1;
+}
+
+.rotacionar{
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+.albuns{
+    padding: 10px 0;
 }
