@@ -147,3 +147,29 @@ h3{
 .albuns{
     padding: 10px 0;
 }
+
+footer{
+    background: black;
+    padding: 50px 0 20px;
+}
+
+footer h4{
+    font-size: 0.8em;
+    color: #919496;
+}
+
+footer .navbar-nav a{
+    color: white;
+}
+
+footer .navbar-nav a:hover{
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul li{
+    list-style: none;
+}
+.caixa-2{
+    padding: 15px;
+}
